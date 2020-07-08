@@ -39,6 +39,7 @@ public class MethodsWithReturn {
 		}
 		return largest;// return values MUST be same type as Return that we declared in method header
 	}
+	
 
 	// create a method that will accept String value and returns that value all in
 	// uppercase
