@@ -15,7 +15,7 @@ public class DifferentMethods {
 	void printAnyword(String word, int times) {
 		
 		for (int i = 0; i < times; i++) {
-			System.out.println(word);
+			System.out.println(word);	
 		}
 	}
 	
