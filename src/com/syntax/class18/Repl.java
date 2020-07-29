@@ -2,21 +2,18 @@ package com.syntax.class18;
 
 public class Repl {
 
-	static String country;
-	static String continent;
-
-	void displayInfo() {
-		System.out.println(country + " located on " + continent + " continent");
-	}
-
 	public static void main(String[] args) {
-
-		Repl obj = new Repl();
-
-		country = "Morocco";
-		continent = "Africa";
-		obj.displayInfo();
-
+		int[] arr = {5,12,-3,7,3,22};
+		System.out.println(maxValue(arr)); //should print 22
 	}
-
+	
+	public static int maxValue(int[] a) {
+		int max = a[0];
+		for (int i = 0; i < a.length; i++) {
+			if (max < a[i]) {
+				max = a[i];
+			}
+		}
+		return max;
+	}
 }
